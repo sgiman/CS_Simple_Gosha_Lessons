@@ -97,7 +97,7 @@ namespace L020_VirtualMethods
 
             List<Animal> animals = new List<Animal>();          // новый список от базового класса "Animal" 
 
-            // Довабить новый элемент
+            // Добавить новый элемент
             animals.Add(new Dog(12.23f, "Alex"));               // создать объект "Dog" и добавить в список "animals"         
             animals.Add(new Dog(11.12f, "Tom"));
             animals.Add(new Cat(10.11f, "Meow"));
